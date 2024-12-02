@@ -13,7 +13,7 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <TableView fx:id="tablePedidos" prefHeight="85.0" prefWidth="316.0">
+   <TableView fx:id="tablePedidos" prefHeight="167.0" prefWidth="644.0">
      <columns>
        <TableColumn fx:id="colId" prefWidth="75.0" text="Id" />
        <TableColumn fx:id="colCantidad" prefWidth="75.0" text="Cantidad" />
@@ -23,10 +23,10 @@
          <TableColumn fx:id="colProductoId" prefWidth="75.0" text="Producto Id" />
      </columns>
    </TableView>
-   <ComboBox fx:id="comboClientes" prefWidth="150.0" promptText="Clientes" />
-   <ComboBox fx:id="comboProductos" prefWidth="150.0" promptText="Productos" />
-   <TextField fx:id="txtCantidad" promptText="Cantidad" />
+   <ComboBox fx:id="comboClientes" prefHeight="5.0" prefWidth="263.0" promptText="Clientes" />
+   <ComboBox fx:id="comboProductos" prefHeight="33.0" prefWidth="263.0" promptText="Productos" />
+   <TextField fx:id="txtCantidad" prefHeight="0.0" prefWidth="596.0" promptText="Cantidad" />
+   <Button fx:id="bttnInsert" mnemonicParsing="false" text="Insertar Pedido" />
 
     <Label fx:id="welcomeText" />
-   <Button fx:id="bttnInsert" mnemonicParsing="false" text="Insertar Pedido" />
 </VBox>
